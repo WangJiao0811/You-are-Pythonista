@@ -1,0 +1,15 @@
+In [30]: def F(n):
+    ...:     if n==0:
+    ...:         return 0
+    ...:     if n==1:
+    ...:         return 1
+    ...:     if n>=2:
+    ...:         return F(n-1)+F(n-2)
+    ...: for i in range(1,6):
+    ...:     print(F(i))
+    ...:     
+1
+1
+2
+3
+5
