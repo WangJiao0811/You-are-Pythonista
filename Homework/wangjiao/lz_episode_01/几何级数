@@ -1,0 +1,12 @@
+In [13]: def sum(a,q,n):
+    ...:     s=0
+    ...:     for i in range(1,n+1):
+    ...:         s=s+a*q**i
+    ...:     print(s)
+    ...:     
+
+In [14]: sum(2,2,4)
+60
+
+In [15]: sum(2,3,2)
+24
